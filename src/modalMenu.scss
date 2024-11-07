@@ -1,0 +1,151 @@
+@import "./index.scss";
+
+.modal {
+  display: flex;
+  justify-content: end;
+  position: fixed;
+  z-index: 15;
+  top: 128px;
+  width: 100%;
+  height: 90%;
+  background-color: $colorBackModal;
+}
+
+.modal__wrapper {
+  padding-top: 43px;
+  background-color: $colorBackModalContent;
+  -webkit-box-shadow: -22px 4px 25px 2px rgba(3, 46, 79, 0.573);
+  -moz-box-shadow: -22px 4px 25px 2px rgba(3, 46, 79, 0.492);
+  box-shadow: -22px 4px 25px 2px rgba(3, 46, 79, 0.474);
+}
+
+.modal__content {
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  height: 100%;
+  padding: 25px;
+}
+.modal__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.modal__links {
+  background-color: $colorBackButton;
+  border-radius: 45px 45px 45px 0px;
+  padding: 10px 18px 10px 18px;
+  max-width: 150px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  font-style: normal;
+  ul {
+    padding-left: 23px;
+    padding-right: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  li {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 120px;
+    text-align: center;
+    padding: 5px;
+    &:hover {
+      background-color: $colorBackModalLinks;
+      transition: 0.5s;
+    }
+  }
+
+  a {
+    color: $colorTitleHomeLower;
+    text-decoration: none;
+  }
+}
+
+.modal__contacts-social {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 45px 45px 45px 0px;
+  width: 145px;
+  height: 65px;
+  padding: 15px;
+  background-color: $colorBackButton;
+
+  .modal__contacts-telegram {
+    margin-right: 15px;
+  }
+  button {
+    border: 0;
+    width: 45px;
+    height: 45px;
+    border-radius: 55%;
+    background-color: $colorBackButton;
+    img {
+      width: 100%;
+    }
+    &:hover {
+      transition: 0.5s;
+      transform: scale(1.2);
+    }
+  }
+}
+
+.modal__contacts-email {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  border-radius: 45px 45px 45px 0px;
+  background-color: $colorBackButton;
+  margin-bottom: 25px;
+  padding: 15px;
+  max-width: 150px;
+  color: $colorTitleHomeLower;
+
+  a {
+    color: $colorTitleHomeLower;
+    text-decoration: none;
+    &:hover {
+      transition: 0.5s;
+      opacity: 0.5;
+    }
+  }
+}
+
+.asda {
+  width: 100px;
+  height: 100%;
+}
+
+.modal__btn {
+  position: absolute;
+  left: 132px;
+  top: -70px;
+  max-width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 0;
+  background-color: $colorBackModalContent;
+
+  button {
+    border: 0;
+  }
+  img {
+    width: 100%;
+  }
+  &:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+  }
+}

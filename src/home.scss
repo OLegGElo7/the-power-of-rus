@@ -1,0 +1,569 @@
+@import "./index.scss";
+
+.home {
+  box-sizing: border-box;
+  padding-top: 200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+
+.home__background-img {
+  background-image: url("./v701-tang-06b-floral.jpg");
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -5;
+}
+.home__background-img-two {
+  background-image: url("./v701-tang-06b-floral.jpg");
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  top: 1380px;
+  left: 0;
+  z-index: -5;
+}
+
+//1665px меняем размеры
+
+.home__cards {
+  font-family: "Arsenal", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: $colorTitleHome;
+  -webkit-text-stroke-color: #00000084;
+  -webkit-text-stroke-width: 2px;
+  display: flex;
+  justify-content: space-around;
+
+  .home__card {
+    position: relative;
+    max-width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    img {
+      width: 100%;
+      box-shadow: $colorShadowHomeCard;
+      border-radius: 2%;
+    }
+  }
+}
+
+.home__title {
+  text-align: center;
+  position: absolute;
+}
+
+//--------
+.cards {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $colorBackHomeCards;
+  margin-top: 300px;
+  box-shadow: $colorShadowHeaderLogo;
+}
+.cards__wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  max-width: 300px;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  img {
+    width: 100%;
+    border-radius: 2%;
+    box-shadow: $colorShadowHomeCard;
+    margin-bottom: 10px;
+  }
+  p {
+    font-family: "Arsenal", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: $colorTitleHome;
+    -webkit-text-stroke-color: $colorTextStrokeHome;
+    -webkit-text-stroke-width: 2px;
+  }
+}
+//------
+.home__lower {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 250px;
+  padding-bottom: 213px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.home__lower-card {
+  max-width: 300px;
+  text-align: center;
+  p {
+    margin-top: 15px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: $colorTitleHomeLower;
+    -webkit-text-stroke-color: #ffffff51;
+    -webkit-text-stroke-width: 1px;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1862px) {
+  .home__cards {
+    font-family: "Arsenal", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: $colorTitleHome;
+    -webkit-text-stroke-color: #00000084;
+    -webkit-text-stroke-width: 2px;
+    display: flex;
+    justify-content: space-around;
+
+    .home__card {
+      position: relative;
+      max-width: 500px;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      img {
+        width: 100%;
+        box-shadow: $colorShadowHomeCard;
+        border-radius: 2%;
+      }
+    }
+  }
+}
+
+@media (max-width: 1464px) {
+  .home__cards {
+    font-family: "Arsenal", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: $colorTitleHome;
+    -webkit-text-stroke-color: #00000084;
+    -webkit-text-stroke-width: 2px;
+    display: flex;
+    justify-content: space-around;
+
+    .home__card {
+      position: relative;
+      max-width: 300px;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      img {
+        width: 100%;
+        box-shadow: $colorShadowHomeCard;
+        border-radius: 2%;
+      }
+    }
+  }
+}
+
+@media (max-width: 959px) {
+  .home__cards {
+    font-family: "Arsenal", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: $colorTitleHome;
+    -webkit-text-stroke-color: #00000084;
+    -webkit-text-stroke-width: 2px;
+    display: flex;
+    justify-content: space-around;
+
+    .home__card {
+      position: relative;
+      max-width: 250px;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      img {
+        width: 100%;
+        box-shadow: $colorShadowHomeCard;
+        border-radius: 2%;
+      }
+    }
+  }
+}
+
+@media (max-width: 774px) {
+  .home__cards {
+    font-family: "Arsenal", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: $colorTitleHome;
+    -webkit-text-stroke-color: #00000084;
+    -webkit-text-stroke-width: 2px;
+    display: flex;
+    justify-content: space-around;
+
+    .home__card {
+      position: relative;
+      max-width: 200px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      img {
+        width: 100%;
+        box-shadow: $colorShadowHomeCard;
+        border-radius: 2%;
+      }
+    }
+  }
+}
+@media (max-width: 534px) {
+  .home__cards {
+    font-family: "Arsenal", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: $colorTitleHome;
+    -webkit-text-stroke-color: #00000084;
+    -webkit-text-stroke-width: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .home__card {
+      margin-top: 20px;
+      position: relative;
+      max-width: 250px;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      img {
+        width: 100%;
+        box-shadow: $colorShadowHomeCard;
+        border-radius: 2%;
+      }
+    }
+  }
+  .cards {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: $colorBackHomeCards;
+    margin-top: 100px;
+    box-shadow: $colorShadowHeaderLogo;
+  }
+}
+
+@media (max-width: 789px) {
+  .card {
+    max-width: 200px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    img {
+      width: 100%;
+      border-radius: 2%;
+      box-shadow: $colorShadowHomeCard;
+      margin-bottom: 10px;
+    }
+    p {
+      font-family: "Arsenal", sans-serif;
+      font-weight: 700;
+      font-size: 30px;
+      color: $colorTitleHome;
+      -webkit-text-stroke-color: $colorTextStrokeHome;
+      -webkit-text-stroke-width: 2px;
+    }
+  }
+}
+
+@media (max-width: 708px) {
+  .card {
+    max-width: 150px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    img {
+      width: 100%;
+      border-radius: 2%;
+      box-shadow: $colorShadowHomeCard;
+      margin-bottom: 10px;
+    }
+    p {
+      font-family: "Arsenal", sans-serif;
+      font-weight: 700;
+      font-size: 30px;
+      color: $colorTitleHome;
+      -webkit-text-stroke-color: $colorTextStrokeHome;
+      -webkit-text-stroke-width: 2px;
+    }
+  }
+}
+@media (max-width: 581px) {
+  .cards__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    max-width: 250px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 1865px) {
+  .home__lower {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+    padding-bottom: 213px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .home__background-img-two {
+    background-image: url("./v701-tang-06b-floral.jpg");
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    top: 1290px;
+    left: 0;
+    z-index: -5;
+  }
+}
+
+@media (max-width: 1467px) {
+  .home__lower {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+    padding-bottom: 213px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .home__background-img-two {
+    background-image: url("./v701-tang-06b-floral.jpg");
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    top: 1190px;
+    left: 0;
+    z-index: -5;
+  }
+}
+@media (max-width: 1334px) {
+  .home__lower-card {
+    max-width: 200px;
+    text-align: center;
+    p {
+      margin-top: 15px;
+      font-family: "Titillium Web", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      color: $colorTitleHomeLower;
+      -webkit-text-stroke-color: #ffffff51;
+      -webkit-text-stroke-width: 1px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 1110px) {
+  .home__lower {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+    padding-bottom: 213px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .home__background-img-two {
+    background-image: url("./v701-tang-06b-floral.jpg");
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    top: 1100px;
+    left: 0;
+    z-index: -5;
+  }
+}
+
+@media (max-width: 852px) {
+  .home__lower {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 213px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .home__lower-card {
+    max-width: 150px;
+    text-align: center;
+    p {
+      margin-top: 15px;
+      font-family: "Titillium Web", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      color: $colorTitleHomeLower;
+      -webkit-text-stroke-color: #ffffff51;
+      -webkit-text-stroke-width: 1px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 776px) {
+  .home__lower {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 213px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .home__background-img-two {
+    background-image: url("./v701-tang-06b-floral.jpg");
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    top: 1000px;
+    left: 0;
+    z-index: -5;
+  }
+  .home__lower-card {
+    max-width: 100px;
+    text-align: center;
+    p {
+      margin-top: 15px;
+      font-family: "Titillium Web", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      color: $colorTitleHomeLower;
+      -webkit-text-stroke-color: #ffffff51;
+      -webkit-text-stroke-width: 1px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 581px) {
+  .home {
+    box-sizing: border-box;
+    padding-top: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+  }
+
+  .home__lower {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    margin-bottom: -180px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 1000px;
+  }
+  .home__background-img-two {
+    background-image: url("./v701-tang-06b-floral.jpg");
+    width: 100%;
+    height: 1410px;
+    position: absolute;
+    top: 1500px;
+    left: 0;
+    z-index: -5;
+  }
+  .home__lower-card {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    max-width: 100px;
+    text-align: center;
+    p {
+      margin-top: 15px;
+      font-family: "Titillium Web", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      color: $colorTitleHomeLower;
+      -webkit-text-stroke-color: #ffffff51;
+      -webkit-text-stroke-width: 1px;
+      width: 250px;
+      margin-bottom: 25px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 535px) {
+  .home__background-img-two {
+    background-image: url("./v701-tang-06b-floral.jpg");
+    width: 100%;
+    height: 1650px;
+    position: absolute;
+    top: 1500px;
+    left: 0;
+    z-index: -5;
+  }
+}
+
+@media (max-width: 273px) {
+  .home__background-img-two {
+    background-image: url("./v701-tang-06b-floral.jpg");
+    width: 100%;
+    height: 1450px;
+    position: absolute;
+    top: 1500px;
+    left: 0;
+    z-index: -5;
+  }
+  .home__lower-card {
+    max-width: 100px;
+    text-align: center;
+    p {
+      margin-top: 15px;
+      font-family: "Titillium Web", sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      width: 170px;
+      font-style: normal;
+      color: $colorTitleHomeLower;
+      -webkit-text-stroke-color: #ffffff51;
+      -webkit-text-stroke-width: 1px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  .card {
+    max-width: 300px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    img {
+      width: 100%;
+      border-radius: 2%;
+      box-shadow: $colorShadowHomeCard;
+      margin-bottom: 10px;
+    }
+    p {
+      font-family: "Arsenal", sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      color: $colorTitleHome;
+      -webkit-text-stroke-color: $colorTextStrokeHome;
+      -webkit-text-stroke-width: 2px;
+    }
+  }
+}

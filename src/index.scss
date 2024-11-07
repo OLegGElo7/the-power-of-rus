@@ -1,0 +1,152 @@
+@import "./reset.scss";
+
+//color
+$colorBackHeader: rgba(255, 255, 255, 0.8);
+$colorTitleHome: rgb(250, 250, 250);
+$colorBackHomeCards: rgb(70, 158, 251);
+$colorTitleHomeLower: rgba(6, 8, 0, 0.991);
+$colorTextStrokeHome: #00000055;
+$colorTextStrokeHomeLower: #ffffff51;
+$colorBackFooter: rgb(4, 66, 125);
+$colorBackZero: rgba(246, 246, 246, 0);
+$colorBackButton: rgb(246, 246, 246);
+$colorBackModal: rgba(107, 116, 128, 0.29);
+$colorBackModalContent: rgba(18, 60, 118, 0.974);
+$colorBackModalLinks: rgba(18, 60, 118, 0.176);
+
+//box-shadow
+$colorShadowHeaderLogo: 0px 1.993px 2.093px 0px rgba(85, 100, 87, 0.072),
+  0px 4.529px 4.755px 0px rgba(85, 100, 87, 0.084),
+  0px 7.882px 8.276px 0px rgba(85, 100, 87, 0.112),
+  0px 12.522px 13.148px 0px rgba(85, 100, 87, 0.128),
+  0px 19.32px 20.286px 0px rgba(85, 100, 87, 0.064),
+  0px 30.147px 31.654px 0px rgba(85, 100, 87, 0.05),
+  0px 50.049px 52.551px 0px rgba(85, 100, 87, 0.09),
+  0px 100px 105px 0px rgba(85, 100, 87, 0.089);
+
+$colorShadowHeader: 0px 1.993px 2.093px 0px rgba(85, 100, 87, 0.02),
+  0px 4.529px 4.755px 0px rgba(85, 100, 87, 0.02),
+  0px 7.882px 8.276px 0px rgba(85, 100, 87, 0.03),
+  0px 12.522px 13.148px 0px rgba(85, 100, 87, 0.04),
+  0px 19.32px 20.286px 0px rgba(85, 100, 87, 0.04),
+  0px 30.147px 31.654px 0px rgba(85, 100, 87, 0.05),
+  0px 50.049px 52.551px 0px rgba(85, 100, 87, 0.05),
+  0px 100px 105px 0px rgba(85, 100, 87, 0.07);
+
+$colorShadowHomeCard: 0px 1.993px 2.093px 0px rgba(100, 85, 85, 0.292),
+  0px 4.529px 4.755px 0px rgba(100, 85, 85, 0.02),
+  0px 7.882px 8.276px 0px rgba(100, 85, 85, 0.153),
+  0px 12.522px 13.148px 0px rgba(100, 85, 85, 0.277),
+  0px 19.32px 20.286px 0px rgba(100, 85, 85, 0.208),
+  0px 30.147px 31.654px 0px rgba(100, 85, 85, 0.246),
+  0px 50.049px 52.551px 0px rgba(85, 100, 87, 0.234),
+  0px 100px 105px 0px rgba(85, 100, 87, 0.25);
+
+$colorShadowModal: 0px 1.993px 2.093px 0px rgba(165, 173, 212, 0.292),
+  0px 4.529px 4.755px 0px rgba(133, 147, 201, 0.25),
+  0px 7.882px 8.276px 0px rgba(104, 123, 172, 0.294),
+  0px 12.522px 13.148px 0px rgba(100, 85, 85, 0.277),
+  0px 19.32px 20.286px 0px rgba(105, 105, 198, 0.172),
+  0px 30.147px 31.654px 0px rgba(90, 104, 171, 0.246),
+  0px 50.049px 52.551px 0px rgba(91, 117, 188, 0.234),
+  0px 100px 105px 0px rgba(81, 103, 169, 0.585);
+//fonts
+
+@import url("https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/*
+.arsenal-regular {
+  font-family: "Arsenal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arsenal-bold {
+  font-family: "Arsenal", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.arsenal-regular-italic {
+  font-family: "Arsenal", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.arsenal-bold-italic {
+  font-family: "Arsenal", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+/*
+.titillium-web-extralight {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.titillium-web-light {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.titillium-web-regular {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.titillium-web-semibold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.titillium-web-bold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.titillium-web-black {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.titillium-web-extralight-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.titillium-web-light-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.titillium-web-regular-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.titillium-web-semibold-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.titillium-web-bold-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+*/

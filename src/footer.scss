@@ -1,0 +1,234 @@
+@import "./index.scss";
+
+.footer {
+  background-color: $colorBackFooter;
+  padding: 15px;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  img {
+    border-radius: 45px 45px 45px 0;
+    box-shadow: $colorShadowHeaderLogo;
+  }
+}
+
+.footer__contacts {
+  display: flex;
+  align-items: center;
+}
+.footer__contacts-email {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: $colorTitleHome;
+  text-align: center;
+
+  a {
+    color: $colorTitleHome;
+    text-decoration: none;
+    opacity: 0.5;
+
+    &:hover {
+      transition: 0.5s;
+      opacity: 0.8;
+    }
+  }
+
+  margin-top: 100px;
+  margin-right: 80px;
+}
+
+.footer__contacts-donat {
+  margin-bottom: 50px;
+  max-width: 700px;
+  font-size: 20px;
+}
+.footer__contacts-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $colorBackButton;
+  border-radius: 45px 45px 45px 0px;
+  width: 145px;
+  height: 65px;
+  box-shadow: $colorShadowHeaderLogo;
+  .footer__contacts-telegram {
+    margin-right: 15px;
+  }
+  button {
+    border: 0;
+    width: 45px;
+    height: 45px;
+    background-color: $colorBackButton;
+    border-radius: 55%;
+    img {
+      width: 100%;
+    }
+    &:hover {
+      transition: 0.5s;
+      transform: scale(1.2);
+    }
+  }
+}
+.footer__contacts-vk {
+  button {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+@media (max-width: 846px) {
+  .footer__contacts-email {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: $colorTitleHome;
+    text-align: center;
+
+    a {
+      color: $colorTitleHome;
+      text-decoration: none;
+      opacity: 0.5;
+      &:hover {
+        transition: 0.5s;
+        opacity: 0.8;
+      }
+    }
+
+    margin-top: 50px;
+    margin-right: 80px;
+  }
+}
+
+@media (max-width: 814px) {
+  .footer__contacts-email {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: $colorTitleHome;
+    text-align: center;
+
+    a {
+      color: $colorTitleHome;
+      text-decoration: none;
+      opacity: 0.5;
+      &:hover {
+        transition: 0.5s;
+        opacity: 0.8;
+      }
+    }
+
+    margin-top: 50px;
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 693px) {
+  .footer__contacts-email {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    color: $colorTitleHome;
+    text-align: center;
+
+    a {
+      color: $colorTitleHome;
+      text-decoration: none;
+      opacity: 0.5;
+      &:hover {
+        transition: 0.5s;
+        opacity: 0.8;
+      }
+    }
+    margin-left: 15px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 581px) {
+  .footer {
+    padding-bottom: 52px;
+  }
+}
+
+@media (max-width: 540px) {
+  .footer__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 100px;
+      border-radius: 45px 45px 45px 0;
+      box-shadow: $colorShadowHeaderLogo;
+    }
+  }
+  .footer__contacts-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: $colorBackButton;
+    border-radius: 45px 45px 45px 0px;
+    width: 105px;
+    height: 45px;
+    box-shadow: $colorShadowHeaderLogo;
+    .footer__contacts-telegram {
+      margin-right: 15px;
+    }
+    button {
+      border: 0;
+      width: 40px;
+      height: 40px;
+      background-color: $colorBackButton;
+      border-radius: 55%;
+      img {
+        width: 100%;
+      }
+      &:hover {
+        transition: 0.5s;
+        transform: scale(1.2);
+      }
+    }
+  }
+  .footer__contacts-vk {
+    button {
+      width: 45px;
+      height: 45px;
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer__contacts-email {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: $colorTitleHome;
+    text-align: center;
+
+    a {
+      color: $colorTitleHome;
+      text-decoration: none;
+      opacity: 0.5;
+      &:hover {
+        transition: 0.5s;
+        opacity: 0.8;
+      }
+    }
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,16 @@
+@import "./index.scss";
+
+.menu {
+  margin-left: 155px;
+  max-width: 45px;
+  height: 45px;
+
+  img {
+    width: 100%;
+    background-color: $colorBackZero;
+  }
+  &:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+  }
+}

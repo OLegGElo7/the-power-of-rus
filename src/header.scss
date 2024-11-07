@@ -1,0 +1,76 @@
+@import "./index.scss";
+
+.header {
+  box-sizing: border-box;
+  background-color: $colorBackHeader;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  box-shadow: $colorShadowHeader;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 7px 15px 7px 15px;
+}
+
+.header__logo {
+  img {
+    border-radius: 45px 45px 45px 0;
+    box-shadow: $colorShadowHeaderLogo;
+    width: 100%;
+    cursor: pointer;
+  }
+}
+
+.header__menu {
+  max-width: 65px;
+  height: 65px;
+  button {
+    border: 0;
+    background-color: $colorBackZero;
+  }
+  img {
+    width: 100%;
+  }
+  &:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+  }
+}
+
+@media (max-width: 446px) {
+  .header__logo {
+    img {
+      border-radius: 45px 45px 45px 0;
+      box-shadow: $colorShadowHeaderLogo;
+      width: 60%;
+      cursor: pointer;
+    }
+  }
+  .header {
+    box-sizing: border-box;
+    background-color: $colorBackHeader;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    box-shadow: $colorShadowHeader;
+    padding-bottom: 47px;
+  }
+}
+
+@media (max-width: 265px) {
+  .header__logo {
+    img {
+      border-radius: 45px 45px 45px 0;
+      box-shadow: $colorShadowHeaderLogo;
+      width: 100px;
+      cursor: pointer;
+    }
+  }
+}
