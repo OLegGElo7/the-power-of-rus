@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/the-power-of-rus/static/css/main.a7149512.css",
+    "main.js": "/the-power-of-rus/static/js/main.ecce0be8.js",
+    "static/media/v701-tang-06b-floral.jpg": "/the-power-of-rus/static/media/v701-tang-06b-floral.a8a16fec6798ee3bb737.jpg",
+    "static/media/cardOne.png": "/the-power-of-rus/static/media/cardOne.618a63b0252e9f556642.png",
+    "static/media/cardTwo.png": "/the-power-of-rus/static/media/cardTwo.8b11e5920f1cfff8f856.png",
+    "static/media/free-icon-telegram-408788.png": "/the-power-of-rus/static/media/free-icon-telegram-408788.de0010e17ca375ca410c.png",
+    "static/media/free-icon-down-arrow-1057166 — копия.png": "/the-power-of-rus/static/media/free-icon-down-arrow-1057166 — копия.0a4b064a316b3ec95fb5.png",
+    "static/media/free-icon-down-arrow-1057166.png": "/the-power-of-rus/static/media/free-icon-down-arrow-1057166.e6181e2a919451d2d862.png",
+    "index.html": "/the-power-of-rus/index.html",
+    "main.a7149512.css.map": "/the-power-of-rus/static/css/main.a7149512.css.map",
+    "main.ecce0be8.js.map": "/the-power-of-rus/static/js/main.ecce0be8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7149512.css",
+    "static/js/main.ecce0be8.js"
+  ]
+}
